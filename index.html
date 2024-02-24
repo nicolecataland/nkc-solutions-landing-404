@@ -1,0 +1,49 @@
+<head>
+    <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+
+<div class="nav">
+    <h2>CATALAND ANALYTICS</h2>
+    <div class="menu">
+      <p>About</p>
+      <p>Portfolio</p>
+      <p>Contact</p>
+    </div>
+  </div>
+  
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Sorry you found us like this.</h1>
+      <p id="subheader">Our site is undergoing some major updates right now. We will be back live Summer 2024.</p>
+      <div class="buttons">
+        <a class="button primary" href="mailto: pixels-04censers@icloud.com">Contact Us</a>
+        <a class="button secondary" href="#" target="_blank">Stay Tuned</a>
+      </div>
+      
+    </div>
+    <div class="blob-cont">
+      <div class="yellow blob"></div>
+      <div class="red blob"></div>
+      <div class="green blob"></div>
+    </div>
+  </div>
+  
+  <svg>
+    <filter id='noiseFilter'>
+      <feTurbulence 
+        type='fractalNoise' 
+        baseFrequency='0.6' 
+        stitchTiles='stitch'/>
+       <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+          <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
+          <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
+    </filter>
+    
+  </svg>
+  
+  
+
+  
